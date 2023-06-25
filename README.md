@@ -40,8 +40,11 @@ public At(String isim) { super(isim);
   }
 }
 
-public class Main { 
-public static void konustur(Hayvan hayvan){         System.out.println(hayvan.konus());
+public class Main 
+{ 
+public static void konustur(Hayvan hayvan)
+{         
+System.out.println(hayvan.konus());
     }
 
 public static void main(String[] args){ // İlk Gösterim Hayvan hayvan = new Hayvan("Hiper");         System.out.println(hayvan.konus());
