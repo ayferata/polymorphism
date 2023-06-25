@@ -31,10 +31,13 @@ public Kopek(String isim) { super(isim);
   }
 }
 
-class At extends Hayvan { 
-public At(String isim) { super(isim);     }
+class At extends Hayvan 
+{ 
+public At(String isim) { super(isim);    
+}
 
-@Override public String konus() { return this.getIsim() + " Kişniyor...";     }
+@Override public String konus() { return this.getIsim() + " Kişniyor...";   
+  }
 }
 
 public class Main { 
