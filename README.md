@@ -1,12 +1,17 @@
 # polymorphism
 class Hayvan{ private String isim; 
-public Hayvan(String isim) { this.isim = isim;     }
+public Hayvan(String isim) { this.isim = isim;    
+}
 
-public String getIsim() { return isim;     }
+public String getIsim() { return isim;    
+}
 
-public void setIsim(String isim) { this.isim = isim;     }
+public void setIsim(String isim) { this.isim = isim;    
+}
 
-public String konus(){ return "Hayvan Konuşuyor...";     }
+public String konus(){ return "Hayvan Konuşuyor...";     
+  }
+  
 }
 
 class Kedi extends Hayvan{ 
