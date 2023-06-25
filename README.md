@@ -58,5 +58,8 @@ System.out.println(hayvan2.konus());
 Hayvan hayvan3 = new At("Hiper");         
 System.out.println(hayvan3.konus());
 
-//Fonksiyon kullanarak gösterim konustur(new Kedi("Nasip")); konustur(new Kopek("Karabaş")); konustur(new At("Bold-Pilot"));     }
+(new Kedi("Nasip")); 
+konustur(new Kopek("Karabaş"));
+konustur(new At("Bold-Pilot"));    
+  }
 }
